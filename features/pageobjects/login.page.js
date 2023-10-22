@@ -15,7 +15,7 @@ class LoginPage extends Page {
         return $('button[type="submit"]');
     }
 
-    get ErrorLoginPass (){
+    get ErrorLoginUser (){
         return $("//*[contains(text(),'Kredensial yang Anda berikan salah')]");
     }
 

@@ -22,6 +22,6 @@ Then(/^I should see dashboard page$/, async () => {
 });
 
 Then(/^I should see error (.*)$/, async (message) => {
-    await expect(loginPage.ErrorLoginPass).toBeExisting();
-    await expect(loginPage.ErrorLoginPass).toHaveTextContaining(message);
+    await expect(loginPage.ErrorLoginUser).toBeExisting();
+    await expect(loginPage.ErrorLoginUser).toHaveTextContaining(message);
 });
