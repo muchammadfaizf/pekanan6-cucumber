@@ -2,7 +2,7 @@
 ```sh
   npm install
   ```
-# npm install
+# npm run wdio
 ```sh
   npm run wdio
   ```
